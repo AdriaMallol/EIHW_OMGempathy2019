@@ -34,6 +34,7 @@ The following scripts are responsibles for processing the videos, extract featur
 * Function call: `$ python generateFeatureMatrices.py dataSplit featureType`
 
 	-> dataSplit: training/validation/test
+	
 	-> featureType: audio/FAUs/audio+FAUs
 
 * This function generates .csv files with the extracted features and labels, compiled from the individual features extracted previously. The inputs of the function indicate the data partition to generate the files from, and the type of the features to compile.
@@ -45,11 +46,17 @@ Finally, the last 2 scripts take care of training and testing the models and gen
 * Function call: `$ python main_EmpathyPrediction.py -action arg1 -model arg2 -ml arg3 [-dw arg4 -LSTMunits arg5 -bs arg6 -p arg7]`
 
 	-> arg1: train/validate/sanityCheck/train+validate/test
+	
  	-> arg2: all/openSMILE/FAUs/openSMILE+FAUs
+	
 	-> arg3: B-LSTM/2B-LSTM
+	
 	-> arg4: 1,5
+	
 	-> arg5: 30,40,50,60,...
+	
 	-> arg6: 1,5,10,...
+	
 	-> arg7: 2,3,...
 
 	[ ] indicates optional arguments
@@ -61,11 +68,17 @@ Finally, the last 2 scripts take care of training and testing the models and gen
 * Function call: `$ python main_EmpathyPrediction_PersonalizedTrack.py -action arg1 -model arg2 -ml arg3 [-dw arg4 -LSTMunits arg5 -bs arg6 -p arg7]`
 
 	-> arg1: train/validate/sanityCheck/train+validate/test
+	
  	-> arg2: all/openSMILE/FAUs/openSMILE+FAUs
+	
 	-> arg3: B-LSTM/2B-LSTM
+	
 	-> arg4: 1,5
+	
 	-> arg5: 30,40,50,60,...
+	
 	-> arg6: 1,5,10,...
+	
 	-> arg7: 2,3,...
 
 	[ ] indicates optional arguments
