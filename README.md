@@ -1,6 +1,6 @@
 # EIHW system for OMG Empathy 2019 Challenge
 
-This repository contains our approach's implementation for to the OMG Empathy Prediction Challenge (https://www2.informatik.uni-hamburg.de/wtm/omgchallenges/omg_empathy.html). Below, we detail the execution order of the different scripts, define their call, and give a brief overview on what do they do. Please note that data paths in the main scripts should be adapted to each machine.
+This repository contains our approach's implementation for the OMG Empathy Prediction Challenge (https://www2.informatik.uni-hamburg.de/wtm/omgchallenges/omg_empathy.html). Below, we detail the execution order of the different scripts, define their call, and give a brief overview on what do they do. Please note that data paths in the main scripts should be adapted to each machine.
 
 The following scripts are responsibles for processing the videos, extract features, and generate feature files that can be easily read on the machine learning stage of our pipeline to train/test models. 
 
